@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christopher McDowell | Sound Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: radial-gradient(circle at top left, #0f0f0f, #000);
+      color: #e0e0e0;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 3px solid #00ffd5;
+    }
+    header img.logo {
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #00ffd5;
+      text-shadow: 0 0 10px #00ffd5;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #999;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffd5;
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .portfolio-sample {
+      margin: 1.5rem 0;
+      box-shadow: 0 0 10px rgba(0, 255, 213, 0.2);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #00ffd5;
+      color: #000;
+      border: none;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #00cba6;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      background: #0f0f0f;
+      border-top: 1px solid #222;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="spidermann%20logo%20blk.JPEG" alt="Spidermann Logo" class="logo">
+    <h1>Christopher McDowell</h1>
+    <p>Sound Engineer | SAE Institute Graduate | Atlanta, GA</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I'm a passionate sound engineer based in Atlanta, graduating from SAE Institute in August 2025. I specialize in studio recording, mixing, mastering, and live sound. My mission is to bring clarity and impact to every project I touch. I have released work on all major streaming platforms under the artist name <strong>Spidermann</strong>.</p>
+  </section>
+
+  <section>
+    <h2>Services & Skills</h2>
+    <ul>
+      <li>Studio Recording & Vocal Tracking</li>
+      <li>Mixing & Mastering (Stereo & Surround)</li>
+      <li>Live Sound Setup & FOH Mixing</li>
+      <li>DAWs: Pro Tools, Ableton Live, Logic Pro</li>
+      <li>Signal Flow, Mic Placement, Sound Design</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Portfolio</h2>
+    <div class="portfolio-sample">
+      <iframe style="height: 166px;" allow="autoplay *; encrypted-media *; fullscreen *" allowfullscreen src="https://open.spotify.com/embed/artist/2kpe7RhzxyKXnEBkKwYb7z?utm_source=generator"></iframe>
+    </div>
+    <div class="portfolio-sample">
+      <iframe style="height: 166px;" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/spidermannmusic&color=%2300ffd5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    </div>
+    <div class="portfolio-sample">
+      <iframe style="height: 315px;" src="https://www.youtube.com/embed?listType=user_uploads&list=spidermannmusic" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>Resume</h2>
+    <p><a class="btn" href="#" download>Download My Resume (PDF)</a></p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email me: <a href="mailto:smblent@gmail.com">smblent@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Christopher McDowell. All rights reserved.</p>
+  </footer>
+</body>
+</html>
