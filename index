@@ -20,8 +20,8 @@
       text-align: center;
       border-bottom: 3px solid #00ffd5;
     }
-    header img.logo {
-      height: 80px;
+    header img {
+      max-height: 100px;
       margin-bottom: 1rem;
     }
     header h1 {
@@ -33,6 +33,11 @@
     header p {
       font-size: 1.2rem;
       color: #999;
+    }
+    .contact-header {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #ccc;
     }
     section {
       padding: 2rem;
@@ -90,9 +95,13 @@
 </head>
 <body>
   <header>
-    <img src="spidermann%20logo%20blk.JPEG" alt="Spidermann Logo" class="logo">
+    <img src="spidermann logo blk.JPEG" alt="Spidermann Logo">
     <h1>Christopher McDowell</h1>
     <p>Sound Engineer | SAE Institute Graduate | Atlanta, GA</p>
+    <div class="contact-header">
+      <p>Email: <a href="mailto:smblent@gmail.com">smblent@gmail.com</a> | Phone: (786) 302-8297</p>
+      <p><a href="https://www.linkedin.com/in/christopher-mcdowell-761ba2300/" target="_blank">LinkedIn Profile</a></p>
+    </div>
   </header>
 
   <section>
